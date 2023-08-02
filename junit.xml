@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="3" errors="0" time="2.352">
+  <testsuite name="Pre authentication tasks" errors="0" failures="3" skipped="0" timestamp="2023-07-29T09:17:11" time="2.075" tests="3">
+    <testcase classname="Pre authentication tasks Challenge 0.a - Wrong password do not expose too much information" name="Pre authentication tasks Challenge 0.a - Wrong password do not expose too much information" time="0.378">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: false
+Received: true
+    at Object.&lt;anonymous&gt; (/Users/shazmiariff/Programming/Sample/HackTest/c55e347c-dd7e-46bb-9566-bc22220dc381/tests/challenge0.test.js:41:52)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+    <testcase classname="Pre authentication tasks Challenge 0.b - User not found do not expose too much information" name="Pre authentication tasks Challenge 0.b - User not found do not expose too much information" time="0.313">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: false
+Received: true
+    at Object.&lt;anonymous&gt; (/Users/shazmiariff/Programming/Sample/HackTest/c55e347c-dd7e-46bb-9566-bc22220dc381/tests/challenge0.test.js:51:49)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+    <testcase classname="Post authentication tasks Challenge 0.c - Show user&apos;s firstname and lastname in welcome message" name="Post authentication tasks Challenge 0.c - Show user&apos;s firstname and lastname in welcome message" time="0.31">
+      <failure>Error: expect(received).toHaveProperty(path)
+
+Expected path: &quot;firstname&quot;
+Received path: []
+
+Received value: {&quot;email&quot;: &quot;siu@cr7.com&quot;, &quot;gender&quot;: &quot;Male&quot;, &quot;hobbies&quot;: [{&quot;name&quot;: &quot;Soccer&quot;, &quot;rate&quot;: 5}, {&quot;name&quot;: &quot;Gym&quot;, &quot;rate&quot;: 4}, {&quot;name&quot;: &quot;Sports&quot;, &quot;rate&quot;: 3}], &quot;id&quot;: 1, &quot;image_url&quot;: &quot;https://www.irishtimes.com/resizer/geEGpNJqT_hxa139T5HWfq8YdYw=/1600x0/filters:format(jpg):quality(70)/cloudfront-eu-central-1.images.arcpublishing.com/irishtimes/C752OG447LSTHDRHTADVXYWCPQ.jpg&quot;, &quot;skills&quot;: [{&quot;name&quot;: &quot;C++&quot;, &quot;rate&quot;: 4}, {&quot;name&quot;: &quot;Java&quot;, &quot;rate&quot;: 5}, {&quot;name&quot;: &quot;Python&quot;, &quot;rate&quot;: 3}]}
+    at Object.&lt;anonymous&gt; (/Users/shazmiariff/Programming/Sample/HackTest/c55e347c-dd7e-46bb-9566-bc22220dc381/tests/challenge0.test.js:73:26)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

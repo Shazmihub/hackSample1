@@ -1,5 +1,4 @@
-import { resolve } from 'path';
-
+import { resolve } from "path";
 
 export default async () => {
   /* 
@@ -8,9 +7,9 @@ export default async () => {
   */
   let __dirname = "../c55e347c-dd7e-46bb-9566-bc22220dc381";
   return {
-    rootDir: resolve(__dirname, ''),
+    rootDir: resolve(__dirname, ""),
     verbose: true,
-    reporters: ['default', 'jest-junit'],
-    maxWorkers: 1
+    reporters: ["default", "jest-junit"],
+    maxWorkers: 1,
   };
 };
